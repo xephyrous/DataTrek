@@ -50,7 +50,7 @@ jobs:
 
           echo
           echo "##### Copying contents to git repo #####"
-          cp -rvf /* "$CLONE_DIRECTORY/projects/data-trek/"
+          cp -rvf ./* "$CLONE_DIRECTORY/projects/data-trek/"
           cd "$CLONE_DIRECTORY"
 
           echo
